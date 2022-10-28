@@ -2,6 +2,8 @@
 
 <?= $this->section('content'); ?>
 
+<link href="<?= base_url(); ?>/css/style2.css" rel="stylesheet">
+
 <div class="container">
     <!-- Outer Row -->
     <div class="row">

@@ -11,7 +11,6 @@
 
     <title>RSUD Kotapinang | UTS PPK</title>
 
-    <link href="<?= base_url(); ?>/css/style2.css" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -19,6 +18,12 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
+
+    <style>
+        .bg-gradient-stis {
+            background-color: #1B449C;
+        }
+    </style>
 
 </head>
 
