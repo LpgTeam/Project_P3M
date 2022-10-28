@@ -1,3 +1,12 @@
+test project : 
+1. pull repo / download
+2. tambah db pppm dengan import dari pppm.sql ke mysql
+
+
+
+
+===================================
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
