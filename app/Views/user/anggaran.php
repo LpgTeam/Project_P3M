@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                Ini laman PKM
+                Ini laman anggaran
             </div>
         </div>
     </div>

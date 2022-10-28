@@ -17,4 +17,9 @@ class Home extends BaseController
     {
         return view('user/index');
     }
+
+    public function login()
+    {
+        return view('auth/pilih_login');
+    }
 }

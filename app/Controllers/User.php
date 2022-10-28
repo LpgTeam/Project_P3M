@@ -22,7 +22,19 @@ class User extends BaseController
         return view('user/index', $data);
     }
 
+    public function anggaran()
+    {
+        $data['title'] = 'Status Anggaran';
 
+        return view('user/anggaran', $data);
+    }
+
+    public function reimburse()
+    {
+        $data['title'] = 'Reimburse';
+
+        return view('user/reimburse', $data);
+    }
 
     public function edit($username)
     {

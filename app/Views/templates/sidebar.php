@@ -2,7 +2,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <img class="logo" src="/img/logo_labusel.jpg">
+        <img class="logo" src="/img/LogoStis.png">
         <!-- <div class="sidebar-brand-icon rotate-n-15"> -->
         <!-- <i class="fas fa-laugh-wink"></i> -->
         <!-- <i class="fa-solid fa-code"></i>
@@ -10,7 +10,7 @@
         <!-- <i class="fa-brands fa-codepen"></i> -->
         <!-- </div> -->
         <div class="sidebar-brand-text mx-3">
-            RSUD Kotapinang
+            PPPM Polstat STIS
         </div>
         <!-- <small>Labuhanbatu Selatan</small> -->
     </a>

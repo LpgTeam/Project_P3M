@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+<nav class="navbar navbar-expand navbar-light bg-primary topbar mb-4 static-top shadow">
 
     <!-- Sidebar Toggle (Topbar) -->
     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
@@ -16,6 +16,31 @@
             </div>
         </div>
     </form>
+
+
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('anggaran'); ?>">Anggaran</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pengajuan
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="<?= base_url('penelitian'); ?>">Penelitian</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="<?= base_url('pkm'); ?>">PKM</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('reimburse'); ?>">Reimburse</a>
+        </li>
+    </ul>
+
+
 
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto">
@@ -162,7 +187,7 @@
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= user()->username; ?></span>
+                <span class="mr-2 d-none d-lg-inline text-white-600 small"><?= user()->username; ?></span>
                 <img class="img-profile rounded-circle" src="<?= base_url(); ?>/img/<?= user()->user_image; ?>">
             </a>
             <!-- Dropdown - User Information -->

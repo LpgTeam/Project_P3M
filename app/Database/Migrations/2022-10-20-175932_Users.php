@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Obat extends Migration
+class Pasien extends Migration
 {
     public function up()
     {

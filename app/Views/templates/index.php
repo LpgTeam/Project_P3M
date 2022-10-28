@@ -49,13 +49,15 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
+            <!-- <div class="container-fluid alert-info m-1 p-2"> -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; RSUD Labuhanbatu Selatan - UTS PPK Okta Gilang Al Jaffarsyah<?= date('Y') ?></span>
+                        <span>Copyright &copy; Penelitian dan Pengabdian Masyarakat POLSTAT STIS <?= date('Y') ?></span>
                     </div>
                 </div>
             </footer>
+            <!-- </div> -->
             <!-- End of Footer -->
 
         </div>

@@ -37,13 +37,30 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
+
 $routes->get('/', 'User::index');
+
+// $routes->get('/pilihlogin', 'Home::login');
+
 // $routes->get('/', 'User::index', ['filter' => 'auth']);
 $routes->get('/user', 'User::index');
+$routes->get('/anggaran', 'User::anggaran');
+$routes->get('/reimburse', 'User::reimburse');
 $routes->get('/about', 'Pages::About');
 $routes->get('/contact', 'Pages::Contact');
 
+
+$routes->get('/penelitian', 'Penelitian::index');
+$routes->get('/pilih-penelitian', 'Penelitian::pilih');
+$routes->get('/add-penelitian', 'Penelitian::add');
+$routes->get('/penelitian/save', 'Penelitian::save');
+
+$routes->get('/pkm', 'PKM::index');
+
 $routes->get('/pasien', 'Pasien::index');
+
+
+
 
 /*
  * --------------------------------------------------------------------
